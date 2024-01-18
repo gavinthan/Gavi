@@ -29,7 +29,7 @@ self.addEventListener("install", installEvent => {
 });
 
 self.addEventListener("activate", function(e) {
-    let version = 4;
+    let version = 5;
     console.log("Service worker activated !");
     console.log("version:" + version);
   }
